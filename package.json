@@ -1,0 +1,29 @@
+{
+  "name": "panda-lantern-town",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4173",
+    "build": "tsc -b && vite build",
+    "check": "tsc -b --pretty false",
+    "audio": "node scripts/generate-audio.mjs",
+    "preview": "vite preview --host 127.0.0.1 --port 4173"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "lucide-react": "^1.48.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1"
+  }
+}
